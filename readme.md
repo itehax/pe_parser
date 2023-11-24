@@ -20,6 +20,8 @@ Here is my [post](https://itehax.com/blog/portable-executable-explained-throught
 - <https://ferreirasc.github.io/PE-Export-Address-Table/>
 
 
+Main:
+
 ```rust
 let mut pe = PE::new(file_path);
     if !pe.is_valid() {
