@@ -4,6 +4,21 @@ This is a simple [portable executable](https://en.wikipedia.org/wiki/Portable_Ex
 
 Here is my [post](https://itehax.com/blog/portable-executable-explained-throught-rust-code) on the details of the PE format.
 
+## References
+- <https://paper.bobylive.com/Security/Bin_Portable_Executable_File_Format_%E2%80%93_A_Reverse_Engineer_View_2012-1-31_16.43_CBM_1_2_2006_Goppit_PE_Format_Reverse_Engineer_View.pdf>
+
+- <https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/pe-file-header-parser-in-c++>
+
+- <https://0xrick.github.io/win-internals/pe8/>
+
+- <https://k0deless.github.io/posts/pe-file-format/>
+
+- <https://en.wikipedia.org/wiki/Portable_Executable>
+
+- <https://learn.microsoft.com/en-us/windows/win32/debug/pe-format>
+
+- <https://ferreirasc.github.io/PE-Export-Address-Table/>
+
 
 ```rust
 let mut pe = PE::new(file_path);
